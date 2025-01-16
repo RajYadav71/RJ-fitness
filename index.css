@@ -7,6 +7,7 @@
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    overflow-x: hidden;
 }
 @media screen and (max-width: 1921px) {
   nav {
@@ -7047,102 +7048,41 @@ body {
 }
 }
 @media screen and (max-width: 1025px) {
-    nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        background-color: black;
-        padding: 11px -77px;
-        width: 1024px;
-    }
-
-  .nav-logo a {
-    display: flex;
-    align-items: center;
-    color: white;
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: bold;
-  }
-
-  .nav-logo img {
-    height: 40px;
-    margin-right: 10px;
-    border-radius: 50%;
-  }
-
-  .nav-links {
-    list-style: none;
-    display: flex;
-  }
-
-  .nav-links li {
-    margin: 0 10px;
-  }
-
-  .nav-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 21px;
+  nav {
+    width: 1190px;
 }
-
-  .nav-links a:hover {
-    color: #ddd;
-  }
-
-  .button {
-    background-color: #ff6347;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-
-  .button:hover {
-    background-color: #ff4500;
-  }
-
-    .firstpg {
-        width: 1024px;
-        height: 1130px;
-        /* margin-top: 10px; */
-    }
-
+.firstpg {
+    width: 1190px;
+    height: 690px;
+}
 .H1 {
-  width: 439px;
-  margin-top: -632px;
-  margin-left: 136px;
-  color: #ff4500;
+    width: 439px;
+    margin-top: -352px;
+    margin-left: 36px;
+    font-size: 30px;
 }
-
-  .ab1 {
-    margin-top: 10px;
-    margin-left: 133px;
-    color: #ddd;
-    font-size: 99px;
-    width: 1057px;
-  }
-  .ab2 {
-    margin-top: 10px;
-    margin-left: 135px;
-    color: azure;
+.ab1 {
+    margin-top: 0px;
+    margin-left: 35px;
+    font-size: 55px;
+    width: 357px;
+}
+.ab2 {
+    margin-top: 0px;
+    margin-left: 35px;
     font-size: 19px;
-    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.button12 {
+    margin-left: 34px;
+    margin-top: 10px;
 }
 
-  .button12 {
-    background-color: #ff6347;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-left: 134px;
-    margin-top: 10px;
-  }
+
+
+  /*  itna add kiya dekho   */
+
+
+
 
   .button1:hover {
     background-color: #ff4500;
