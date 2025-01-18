@@ -13689,6 +13689,44 @@ body {
     font-size: 25px;
     color: white;
 }
+.tp1{
+  width: 500px;
+  height: 300px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.tp1 {
+  width: 1180px;
+  height: 2083px;
+  margin-left: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.firstpg {
+  width: 1203px;
+  height: 2310px;
+}
+.H1 {
+  width: 949px;
+  margin-top: -932px;
+  margin-left: 36px;
+  font-size: 60px;
+}
+.ab1 {
+  margin-top: 0px;
+  margin-left: 35px;
+  font-size: 85px;
+  width: 967px;
+}
+.ab2 {
+  margin-top: 0px;
+  margin-left: 35px;
+  font-size: 64px;
+}
+.button12 {
+  margin-left: 354px;
+  margin-top: 40px;
+}
 }
 @media screen and (max-width: 320px) {
   nav {
@@ -14625,4 +14663,5 @@ body {
     font-size: 25px;
     color: white;
 }
+
 }
